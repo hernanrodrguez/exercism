@@ -23,13 +23,3 @@ class Matrix:
         return self.columns[index-1]
 
 
-#string = "1 2\n3 4\n5 6"
-#print(string)
-#print()
-#m = Matrix(string)
-#print(m.row(1))
-#print(m.row(2))
-#print(m.row(3))
-#print(m.column(1))
-#print(m.column(2))
-
