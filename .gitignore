@@ -3,3 +3,4 @@ __pycache__/
 **/tests.out
 **/executable
 build/
+cpp/**/test/
