@@ -4,3 +4,4 @@ __pycache__/
 **/executable
 build/
 cpp/**/test/
+c/**/test/vendor/
