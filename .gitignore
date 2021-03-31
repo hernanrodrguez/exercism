@@ -12,3 +12,4 @@ javascript/**/.eslintrc
 javascript/**/.npmrc
 javascript/**/*.json
 javascript/**/babel.config.js
+**/*.pyc
