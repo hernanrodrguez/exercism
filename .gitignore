@@ -7,3 +7,8 @@ cpp/**/test/
 c/**/test/vendor/
 .gradle/
 *.class
+node_modules/
+javascript/**/.eslintrc
+javascript/**/.npmrc
+javascript/**/*.json
+javascript/**/babel.config.js
