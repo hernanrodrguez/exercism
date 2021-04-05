@@ -69,7 +69,6 @@ uint8_t get_mday(uint8_t wday, uint8_t week, uint8_t month, uint8_t year){
                 day.tm_mon = month-1;
                 rawtime = mktime(&day);
                 ptr = localtime(&rawtime);
-                printf("%s", asctime(ptr));
                 if(ptr->tm_wday == wday && ptr->tm_mon == month-1)
                     return ptr->tm_mday;                
             }
